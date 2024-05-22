@@ -54,27 +54,25 @@ const Clients = () => {
           </div>
         </div>
         <div className="hidden lg:grid px-14 max-md:px-5 max-md:mt-10 max-md:max-w-full gap-5 lg:grid-cols-5 xl:grid-cols-5">
-          
-          {information && information.slice(currentPage * 20, (currentPage + 1) * 20).map(( img ) => (
+          {information && information.slice(currentPage * 20, (currentPage + 1) * 20).map((img) => (
             <div key={img.brand} className="relative w-full aspect-square">
               <div className="absolute inset-0 flex items-center justify-center p-2">
-                <img src={`${host}${img.images}`} alt="" className="max-h-full max-w-full object-cover" style={{ margin: "0 1rem" }} />
+                <img src={`${host}${img.images}`} alt="" className="max-h-full max-w-full object-contain" style={{ margin: "0 1rem" }} />
               </div>
             </div>
           ))}
         </div>
-        
         <div className="lg:hidden">
           <div
             ref={containerRef}
             className="flex p-2.5 mb-10 space-x-5 w-full overflow-x-scroll scroll-auto scrollbar-hide"
           >
-            {information && information.map(( img ) => (
+            {information && information.map((img) => (
               <img
                 key={img.brand}
                 src={`${host}${img.images}`}
                 alt=""
-                className="max-w-full border-gray-200 border-solid aspect-square w-full h-[126px]" style={{ margin: "0 1rem" }}
+                className="max-w-full border-gray-200 border-solid aspect-square w-full h-[126px] object-contain" style={{ margin: "0 1rem" }}
               />
             ))}
           </div>
