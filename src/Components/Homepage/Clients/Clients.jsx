@@ -16,9 +16,13 @@ const Clients = () => {
     const scrollRight = () => {
       const nextIndex = (currentPage + 1) % Math.ceil(information && information.length / 20);
       setCurrentPage(nextIndex);
+      container.scrollBy({
+        left: container.clientWidth,
+        behavior: "smooth",
+      });
     };
 
-    const scrollInterval = setInterval(scrollRight, 2500);
+    const scrollInterval = setInterval(scrollRight, 2000);
 
     return () => clearInterval(scrollInterval);
   }, [currentPage, information && information.length]);
@@ -81,7 +85,7 @@ const Clients = () => {
           {Array.from({ length: Math.ceil(information.length / 20) }).map((_, index) => (
             <button
               key={index}
-              className={`mx-2 px-3 py-1 rounded-full focus:outline-none -mt-10 mb-5 ${currentPage === index ? "bg-gray-300" : "bg-gray-200"
+              className={`mx-2 px-3 py-1 rounded-full focus:outline-none -mt-10 mb-5 hidden ${currentPage === index ? "bg-gray-300" : "bg-gray-200"
                 }`}
               onClick={() => handlePageChange(index)}
             >
