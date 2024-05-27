@@ -38,10 +38,11 @@ import "leaflet-defaulticon-compatibility";
 import { useEffect, useState } from "react";
 
 function App() {
+  
   return (
     <Rout>
       <Header />
-      <div className="min-h-[calc(100vh-85px)]">
+      <div className="min-h-[calc50vh-85px)]">
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />

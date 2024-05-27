@@ -46,10 +46,8 @@ export default function Programs() {
                 <div className="mt-8 w-[100%] max-w-[640px] max-md:w-[100%] max-md:max-w-full relative z-10 border border-white rounded-2xl overflow-hidden">
                   <video width="100%" height="360" autoPlay muted loop>
                     <source src={ILCI} type="video/mp4" />
-                    Your browser does not support the video tag.
                   </video>
                 </div>
-
                 <div className="mt-9 text-xl w-[100%] max-w-[872px] max-md:w-[100%] max-md:max-w-full">
                   The Power Up Conferences is the brainchild between the
                   partnership of Success Options Inc. and Inspire Leadership

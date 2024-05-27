@@ -6,66 +6,66 @@ import keynote from "../assets/Train/keynote.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="flex justify-center items-center p-8 md:px-16 md:py-20 mb-5 mt-10"
-      style={{ boxShadow: "0 0 15px rgba(0, 0, 0, 0.3)" }}>
+      <div
+        className="flex justify-center items-center px-4 py-8 md:px-8 md:py-10 mb-5 mt-8"
+        style={{ boxShadow: "0 0 15px rgba(0, 0, 0, 0.3)" }}
+      >
         <div className="w-full min-h-[8vh] max-w-[10rem] md:py-3 md:max-w-[16rem] lg:max-w-[23rem] flex text-white bg-black lg:py-6 lg:min-h-[15vh]">
-          <span className="w-full mt-3 ml-6 font-bold text-4xl md:text-6xl md:mb-3 lg:text-7xl xl:text-8xl lg:mt-1 lg:ml-5">
+          <span className="w-full mt-3 ml-6 font-bold text-4xl md:text-6xl lg:text-7xl xl:text-8xl">
             ABOUT
           </span>
         </div>
         <div className="w-full min-h-[8vh] max-w-[5rem] md:py-3 md:max-w-[8rem] lg:max-w-[11rem] flex text-white bg-[#DF0000] lg:py-6 lg:px-5 lg:min-h-[15vh]">
-          <span className="w-full mt-3 ml-4 font-bold text-4xl md:text-6xl md:mb-3 lg:text-7xl xl:text-8xl lg:mt-1 lg:ml-1">
+          <span className="w-full mt-3 ml-4 font-bold text-4xl md:text-6xl lg:text-7xl xl:text-8xl">
             US
           </span>
         </div>
       </div>
-      <section className=" gap-2 p-10 flex flex-col text-justify md:ml-4 lg:gap-12 lg:flex-row max-w-7xl mx-auto text- xl:mx-auto xl:max-w-[100rem]">
+      <section className="gap-2 px-5 py-5 flex flex-col text-justify md:ml-2 lg:gap-6 lg:flex-row max-w-7xl mx-auto xl:mx-auto xl:max-w-[100rem]">
         <div className="flex w-full text-2xl lg:w-1/3 font-black lg:font-bold tracking-wide lg:text-7xl gap-1 lg:gap-3 lg:flex-col lg:justify-center items-end xl:w-[22rem]">
           <span>OUR</span>
           <span>STORY</span>
         </div>
         <div className="w-full flex flex-col gap-4 lg:w-2/3">
-          <span>
-            We are a company filled with the passion to inspire personal,
-            professional and social excellence through our learning
-            interventions such as conferences, speaking engagements, workshops,
-            executive coaching, consultancy services, and other channels that
-            promote competency development.
+          <span className="whitespace-pre-wrap">
+          We are a company filled with the passion to inspire personal, professional 
+          and social excellence through our learning interventions such as conferences, 
+          speaking engagements, workshops, executive coaching, consultancy services, and other 
+          channels that promote competency development.
           </span>
-          <span>
-            Inspire is a member of United Neon Media Group. UNMG is an
-            out-of-home advertising company with more than 400 sites across the
-            philippines and more that 80 years of experience. It has always been
-            intentional in positively influencing its stakeholder as it upholds
-            its mission in Making Lives Meaningful.
+          <span className="whitespace-pre-wrap">
+          Inspire is a member of United Neon Media Group. UNMG is an out-of-home advertising company
+           with more than 400 sites across the Philippines and more than 80 years of experience. It has
+            always been intentional in positively influencing its stakeholders as it upholds its mission 
+            in Making Lives Meaningful.
           </span>
-          <span>
-            Thus, having Inspire Leadership Consultancy Inc. further its mission
-            to proactively develop leaders of Character and Competence.
+          <span className="whitespace-pre-wrap">
+          Thus, having Inspire Leadership Consultancy Inc. further its mission to proactively
+           develop leaders of Character and Competence.
           </span>
         </div>
       </section>
       <hr className="mt-5 border-gray-400 w-full max-w-[400px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1300px] mx-auto" />
-      <section className=" gap-2 p-10 flex flex-col max-w-7xl  mx-auto text-justify md:ml-4 lg:gap-12 lg:flex-row-reverse lg:px- xl:mx-auto xl:max-w-[100rem] xl:px-24">
+      <section className="gap-2 px-5 py-5 flex flex-col max-w-7xl mx-auto text-justify md:ml-4 lg:gap-12 lg:flex-row-reverse xl:mx-auto xl:max-w-[100rem] xl:px-24">
         <div className="flex text-[#DF0000] w-full text-2xl lg:w-[23rem] font-black lg:mr-28 lg:font-bold tracking-wide lg:text-7xl gap-1 lg:gap-3 lg:flex-col lg:justify-center items-start">
           <span>INSPIRED</span>
           <span>BEGINNINGS</span>
         </div>
         <div className="w-full flex flex-col gap-4 lg:w-2/3">
-          <span>
+          <span className="whitespace-pre-wrap">
             We have the distinct opportunity to be the training provider of
             choice for the country’s leaders coming from the top 1000 companies
-            as well as from the academe, government agencies and even the
-            religious sector.{" "}
+            as well as from the academe, government agencies, and even the
+            religious sector.
           </span>
-          <span>
+          <span className="whitespace-pre-wrap">
             In 2005, Inspire was appointed as the exclusive licensee for John
             Maxwell’s leadership program. In late 2007, Inspire was awarded the
             exclusive licensee for best-selling author and top sales
-            motivational speaker Zig Ziglar’s programs.{" "}
+            motivational speaker Zig Ziglar’s programs.
           </span>
-          <span>
-            We are also one of the few training providers with distinct ROI
+          <span className="whitespace-pre-wrap">
+            We are also one of the few training providers with a distinct ROI
             model for trainings and seminars.
           </span>
         </div>
@@ -87,16 +87,18 @@ const AboutUs = () => {
               IET FRAMEWORK
             </div>
             <div className="mt-3 text-base leading-7 text-justify text-black max-md:max-w-full">
-              Every organization needs measurable results for every trainings
+              Every organization needs measurable results for every training
               that they avail of. But what is the right result? Inspire
               understands that the right result is meant to deliver and answer
-              your business’s needs. <br />
+              your business’s needs.
+              <br />
               <br />
               That is why we make sure that our learning interventions will
               drive our participants to achieve the right behavioral needs. This
               will help them meet their performance needs that are necessary for
-              your organization to meet its business needs. <br />
-              We achieve it through IET Framework - Inspire, Equip and Transform
+              your organization to meet its business needs.
+              <br />
+              We achieve it through IET Framework - Inspire, Equip, and Transform
             </div>
           </div>
         </div>
@@ -106,9 +108,7 @@ const AboutUs = () => {
           <h1 className="w-full lg:leading-normal flex justify-center lg:items-center">
             <div className="flex flex-col md:flex-row md:gap-10 gap-2">
               <div className="flex md:flex-col gap-2 text-xl justify-center lg:gap-3 md:text-2xl lg:text-4xl text-white md:items-end font-bold">
-                OUR <span className="md:block">MISSION</span>{" "}
-                <span className="hidden">MISSION</span>{" "}
-                {/*<span className="flex text-[#DF0000] gap-2">speaker <span className="text-white">for <span className="lg:hidden">your</span></span></span><span className="hidden lg:block">your</span> event? */}
+                OUR <span className="md:block">MISSION</span>
               </div>
               <div className="flex flex-col lg:gap-2 md:text-xl lg:text-3xl md:mt-2">
                 <div>
@@ -140,8 +140,8 @@ const AboutUs = () => {
         <div className="mt-5 max-w-[22rem] text-base leading-7 text-center text-black w-[964px] md:max-w-full md:px-10 lg:px-5">
           We at Inspire also offer customizable learning interventions and
           consultancy services that cater to your individual and organizational
-          needs. You have may avail of our exclusive programs or request to have
-          an expert assess and recommend the best solution for your company.
+          needs. You may avail of our exclusive programs or request to have an
+          expert assess and recommend the best solution for your company.
         </div>
         <div className="justify-center self-stretch px-5 md:mt-10 w-full max-md:mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 lg:gap-1">
@@ -158,7 +158,7 @@ const AboutUs = () => {
                 <div className="self-stretch mt-3 text-base leading-4 text-black">
                   We conduct year-round workshops on different topics that range
                   from development of technical skills, to leadership and
-                  personality
+                  personality.
                 </div>
               </div>
             </div>
@@ -201,4 +201,5 @@ const AboutUs = () => {
     </>
   );
 };
+
 export default AboutUs;
